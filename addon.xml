@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.1fltv" name="1FLTV" version="1.0.0" provider-name="Alexander Seiler">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">1FLTV media library</summary>
+    <summary lang="de_DE">1FLTV Mediathek</summary>
+    <description lang="en_GB">Watch the shows of 1FLTV, the TV station of Liechtenstein.</description>
+    <description lang="de_DE">Sehen Sie die Sendungen von 1FLTV, dem Fernsehsender Liechtensteins.</description>
+    <language>de</language>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <website>https://1fl.li/wp/</website>
+    <email>seileralex@gmail.com</email>
+    <source>https://github.com/goggle/plugin.video.1fltv</source>
+    <news>v1.0.0 (2026-11-15)
+- First release: newest videos and all shows of 1FLTV.
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
